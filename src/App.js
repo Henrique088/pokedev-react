@@ -24,6 +24,7 @@ function App() {
     <main>
       <div class="pokedevs">
         <div class="cartoes-pokedev">
+
           {poke_name === "devchu" ? (
             <div class="cartao-pokedev tipo-eletrico" id="cartao-devchu">
               <div class="cartao-topo">

@@ -14,13 +14,13 @@ body::before {
     height: 100%;
     z-index: -1;
     backdrop-filter: blur(8px);
+    /* aplica um borrão ao fundo */
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-
     min-height: 100vh;
 }
 
@@ -31,15 +31,9 @@ main {
 }
 
 .cartao-pokedev {
-    /* display: none; */
     max-width: 360px;
     border-radius: 10px;
-
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.cartao-pokedev.aberto {
-    display: block;
 }
 
 .cartao-pokedev img {
@@ -129,7 +123,6 @@ main {
 .listagem .pokedev {
     background-color: #6b727a;
     color: #ffffff;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
